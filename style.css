@@ -1,0 +1,55 @@
+.title {
+    color: red;
+    font-size: large;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    border-radius: 30cm;
+}
+.menubar {
+    background-color: lightgreen;
+    display:flex;
+    flex-direction: row;
+}
+.submenu {
+    background-color: white;
+    padding:0.5rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30cm;
+    text-decoration: none;
+    color: black   ;
+}
+.signin {
+    background-color: green;
+    padding: 0.75rem;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10%;
+    border-radius: 30cm;
+}
+.ไตเติ้ล {
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.foot {
+    text-align: center;
+    display: flex;
+    background-color: grey;
+    margin-top: 90%;
+    font-family:Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    border-radius: 2cm;
+    padding:1rem;
+}
