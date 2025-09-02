@@ -14,10 +14,13 @@
     background-color: lightgreen;
     display:flex;
     flex-direction: row;
+    width: auto;
+    height: auto;
 }
 .submenu {
     background-color: white;
     padding:0.5rem;
+    font-size:xx-large;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: auto;
@@ -26,20 +29,34 @@
     text-decoration: none;
     color: black   ;
 }
+.submenu:hover {
+    transform: scale(1.2);
+    transition: 0.1s;
+}
 .signin {
     background-color: green;
-    padding: 0.75rem;
+    padding: 0.5rem;
+    font-size: xx-large;
     margin-top: 10%;
-    margin-right: auto;
-    margin-left: auto;
     margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 30cm;
+    text-decoration: none;
+}
+.signin:hover {
+    transform: scale(1.2);
+    transition: 0.1s;
 }
 .ไตเติ้ล {
     font-size: 50px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .main {
+    display: flex;
+    flex-direction: column;
+}
+.about {
     display: flex;
     flex-direction: column;
 }
