@@ -66,8 +66,8 @@
     font-family: "League Spartan", sans-serif;
 }
 .username {
-    width: 322px;
     height:45px;
+    margin-right: 36px;
     margin-top: 14px;
     margin-left: 36px;
     border-radius: 13px;
@@ -75,8 +75,8 @@
     font-family: "League Spartan", sans-serif;
 }
 .password{
-    width: 322px;
     height: 45px;
+    margin-right: 36px;
     margin-top: 13px;
     margin-left: 36px;
     border-radius: 13px;
@@ -89,7 +89,7 @@
     font-size: 14px;
     width: 116px;
     height: 23px;
-    margin-left: 265px;
+    margin-left: 88%;
     margin-top: 13px;
     color:#27C840;
     font-family: League;
@@ -98,7 +98,7 @@
 .loginbutton {
     width: 207px;
     height: 40px;
-    margin-left: 80px;
+    margin-left: 41%;
     border-radius: 30px;
     background-color:#00B157;
 }
@@ -106,11 +106,10 @@
     width: 61px;
     height: 22px;
     margin-left:79px;
-
 }
 body {
     background-color:#00B157;
-    width: 390px;
-    height: 844px;
+    width: 1179px;
+    height: 2556px;
 
 }
