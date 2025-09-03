@@ -1,137 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00B157;
+    font-family: "League Spartan", sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
 
 .loginwelcome {
-    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 60px;
 }
+
 .loginword {
     font-weight: 700;
     color: #FFFFFF;
-    font-size: 28px;
+    font-size: clamp(24px, 6vw, 32px);
     letter-spacing: 0%;
     line-height: 100%;
-    font-style:Bold;
-    margin-left: 47%;
-    font-family:"League Spartan", sans-serif;
-    font-weight: bold;
 }
+
 .frame {
-    display:flex;   
-    flex-direction: column;
-    margin-top: 161px;
-    margin-left: -0px;
-    height: auto;
     background-color: #FFFFFF;
     border-radius: 30px;
-}
-.welcomemessage {
-    height: 14px;
-    width: 121px;
-    margin-top: 34px;
-    margin-left: 36px;
-    font-weight: 600;
-    font-size: 24px;
-    font-style: SemiBold;
-    font-family: "League Spartan", sans-serif;
-}
-.yappy {
-    width: 322px;
-    height: 14px;
-    margin-top: 20px;
-    margin-left: 38px;
-    font-weight: 300;
-    font-style: light;
-    font-size: 14px;
-    font-family: "League Spartan", sans-serif;
-}
-.noaccount {
+    padding: 30px 24px 40px 24px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
-.yappy2 {
-    height: 14px;
-    margin-top: 20px;
-    margin-left: 42%;
+
+.welcomemessage {
+    font-weight: 600;
+    font-size: clamp(20px, 5vw, 24px);
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.yappy {
     font-weight: 300;
-    font-style: light;
     font-size: 14px;
-    font-family: "League Spartan", sans-serif;
+    color: #666;
+    margin-bottom: 40px;
+    line-height: 1.4;
 }
-.yappy3 {
-    height: 14px;
-    margin-top: 20px;
-    margin-left: 10px;
-    font-weight: 300;
-    font-style: light;
-    font-size: 14px;
-    text-decoration: none;
-    color:#27C840;
-    font-family: "League Spartan", sans-serif;
-}
-.email {
-    width: 214px;
-    height: 14px;
-    margin-left: 36px;
-    margin-top: 50px;
-    font-weight: 500;
-    font-style: medium;
-    font-size: 20px;
-    vertical-align: middle;
-    font-family: "League Spartan", sans-serif;
-}
+
+.email,
 .pwd {
-    width: 214px;
-    height: 14px;
-    margin-left: 36px;
-    margin-top: 12px;
     font-weight: 500;
-    font-style: medium;
-    font-size: 20px;
-    vertical-align: middle;
-    font-family: "League Spartan", sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 12px;
+    margin-top: 20px;
 }
-.username {
-    height:45px;
-    margin-right: 36px;
-    margin-top: 14px;
-    margin-left: 36px;
-    border-radius: 13px;
-    background-color:#C7EBD0;
-    font-family: "League Spartan", sans-serif;
+
+.email:first-of-type {
+    margin-top: 0;
 }
-.password{
-    height: 45px;
-    margin-right: 36px;
-    margin-top: 13px;
-    margin-left: 36px;
+
+.username,
+.password {
+    width: 100%;
+    height: 50px;
     border-radius: 13px;
     background-color: #C7EBD0;
+    border: none;
+    padding: 0 16px;
     font-family: "League Spartan", sans-serif;
+    font-size: 16px;
+    margin-bottom: 8px;
 }
+
+.username::placeholder,
+.password::placeholder {
+    color: #888;
+}
+
+.username:focus,
+.password:focus {
+    outline: 2px solid #00B157;
+    background-color: #B8E2C3;
+}
+
 .forgotpwd {
     font-weight: 500;
-    font-style: medium;
     font-size: 14px;
-    width: 116px;
-    height: 23px;
-    margin-left: 88%;
-    margin-top: 13px;
-    color:#27C840;
-    font-family: League;
-    font-family: "League Spartan", sans-serif;
+    color: #27C840;
+    text-align: right;
+    margin: 12px 0 30px 0;
+    cursor: pointer;
+    text-decoration: none;
 }
+
+.forgotpwd:hover {
+    text-decoration: underline;
+}
+
 .loginbutton {
-    width: 207px;
-    height: 40px;
-    margin-left: 41%;
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    margin: 0 auto 30px auto;
     border-radius: 30px;
-    background-color:#00B157;
+    background-color: #00B157;
+    border: none;
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-.loginbtnmsg {
-    width: 61px;
-    height: 22px;
-    margin-left:79px;
+
+.loginbutton:hover {
+    background-color: #009147;
 }
-body {
-    background-color:#00B157;
-    width: 1179px;
-    height: 2556px;
+
+.loginbutton:active {
+    transform: translateY(1px);
+}
+
+.noaccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: auto;
+}
+
+.yappy2 {
+    font-weight: 300;
+    font-size: 14px;
+    color: #666;
+}
+
+.yappy3 {
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: #27C840;
+}
+
+.yappy3:hover {
+    text-decoration: underline;
+}
+
+/* iPhone 15 Pro specific optimizations */
+@media screen and (max-width: 430px) and (max-height: 932px) {
+    body {
+        padding: 16px;
+    }
+
+    .loginwelcome {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .frame {
+        padding: 24px 20px 32px 20px;
+        border-radius: 25px;
+    }
+
+    .username,
+    .password {
+        height: 48px;
+        font-size: 16px;
+        /* Prevents zoom on iOS */
+    }
+
+    .loginbutton {
+        height: 48px;
+    }
+}
+
+/* Landscape orientation */
+@media screen and (orientation: landscape) and (max-height: 430px) {
+    body {
+        padding: 12px;
+    }
+
+    .loginwelcome {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .frame {
+        padding: 20px 20px 24px 20px;
+    }
+
+    .yappy {
+        margin-bottom: 24px;
+    }
+
+    .email,
+    .pwd {
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+
+    .forgotpwd {
+        margin: 8px 0 20px 0;
+    }
+
+    .loginbutton {
+        margin-bottom: 20px;
+    }
+}
+
+/* Safe area handling for notch */
+@supports (padding: max(0px)) {
+    body {
+        padding-top: max(20px, env(safe-area-inset-top));
+        padding-bottom: max(20px, env(safe-area-inset-bottom));
+        padding-left: max(20px, env(safe-area-inset-left));
+        padding-right: max(20px, env(safe-area-inset-right));
+    }
 }

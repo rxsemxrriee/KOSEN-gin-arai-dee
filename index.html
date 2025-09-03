@@ -1,35 +1,39 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="idk.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
-    </style>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KOSEN gin rai dee</title>
+    <link rel="stylesheet" href="mobile_style_css.css">
 </head>
 
 <body>
     <div class="loginwelcome">
-        <h class="loginword">Log in</h>
+        <h1 class="loginword">Log in</h1>
     </div>
-    <div class="frame"> 
-        <h1 class="welcomemessage">Welcome</h1>
+
+    <div class="frame">
+        <h2 class="welcomemessage">Welcome</h2>
         <p class="yappy">Let's get going and enjoy some meals!</p>
-        <h1 class="email">Email or Mobile Number</h1>
-        <input class="username" placeholder="example@example.com">
-        <h1 class="pwd">Password</h1>
-        <input class='password' type="password" placeholder="Input your password!">
-        <h2 class='forgotpwd'>Forgot Password</h2>
-        <button onclick='location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"' class='loginbutton'>Log In</button>
+
+        <label class="email" for="email-input">Email or Mobile Number</label>
+        <input id="email-input" class="username" type="email" placeholder="example@example.com" autocomplete="email">
+
+        <label class="pwd" for="password-input">Password</label>
+        <input id="password-input" class="password" type="password" placeholder="Input your password!"
+            autocomplete="current-password">
+
+        <a href="#" class="forgotpwd">Forgot Password</a>
+
+        <button onclick='location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"' class="loginbutton">Log
+            In</button>
+
         <div class="noaccount">
-            <h3 class="yappy2">Don't have an account?</h3>
-            <a class='yappy3' href="signup.html">Sign Up</a>
+            <span class="yappy2">Don't have an account?</span>
+            <a class="yappy3" href="signup.html">Sign Up</a>
         </div>
-    </div>  
-    
+    </div>
 </body>
 
-<footer>
-
-</footer>
+</html>
