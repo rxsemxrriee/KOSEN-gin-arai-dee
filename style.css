@@ -1,7 +1,5 @@
 
 .loginwelcome {
-    /* display:flex;
-    flex-direction: row; */
     color: white;
 }
 .loginword {
@@ -15,11 +13,12 @@
     font-family:"League Spartan", sans-serif;
     font-weight: bold;
 }
-.frame6 {
+.frame {
     display:flex;   
     flex-direction: column;
     margin-top: 161px;
     margin-left: -0px;
+    height: auto;
     background-color: #FFFFFF;
     border-radius: 30px;
 }
@@ -41,6 +40,30 @@
     font-weight: 300;
     font-style: light;
     font-size: 14px;
+    font-family: "League Spartan", sans-serif;
+}
+.noaccount {
+    display: flex;
+    flex-direction: row;
+}
+.yappy2 {
+    height: 14px;
+    margin-top: 20px;
+    margin-left: 42%;
+    font-weight: 300;
+    font-style: light;
+    font-size: 14px;
+    font-family: "League Spartan", sans-serif;
+}
+.yappy3 {
+    height: 14px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 300;
+    font-style: light;
+    font-size: 14px;
+    text-decoration: none;
+    color:#27C840;
     font-family: "League Spartan", sans-serif;
 }
 .email {
@@ -111,5 +134,4 @@ body {
     background-color:#00B157;
     width: 1179px;
     height: 2556px;
-
 }
