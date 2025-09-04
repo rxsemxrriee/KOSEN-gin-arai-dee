@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+body {
+  font-family: League Spartan;
+  margin: 0;
+  background: #00B157;
+}
+
+header input {
+  width: 322px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  margin-top: 57px;
+  margin-left: 28%;
+}
+.goodmorning {
+  color: #F8F8F8;
+  margin-left: 36px;
+  font-size: 30px;
+}
+.myorder {
+  color: #F8F8F8;
+  margin-left: 150px;
+  font-size: 30px;
+}
+.container {
+  padding: 15px;
+  background: #f9f9f9;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 750px;
+}
+.container-order {
+  padding: 15px;
+  background: #f9f9f9;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 850px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.best-seller .scroll {
+  display: flex;
+  overflow-x: auto;
+}
+
+.best-seller img {
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.card {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+  background: #fff;
+  padding: 10px;
+  font-family: League Spartan;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.badge {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: red;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.price {
+  font-weight: bold;
+  color: green;
+}
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #00B157;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px ;
+  border-radius: 30px;
+}
+
+.navbar svg {
+  color: white;
+  text-decoration: none;
+}
+
+/* Order page */
+.order img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.quantity button {
+  padding: 5px 10px;
+  margin: 0 10px;
+  background: #3aaf3a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.add-cart {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #3aaf3a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Order List */
+.order-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.order-item img {
+  width: 60px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.order-item .info {
+  flex: 1;
+}
+
+.cancel {
+  background: #eee;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
