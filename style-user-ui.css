@@ -32,6 +32,8 @@ header input {
   height: 750px;
 }
 .container-order {
+  display: flex;
+  flex-direction: column;
   padding: 15px;
   background: #f9f9f9;
   border-top-left-radius: 30px;
