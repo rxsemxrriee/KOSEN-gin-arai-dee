@@ -28,7 +28,61 @@ body {
     letter-spacing: 0%;
     line-height: 100%;
 }
-
+.menuname {
+    height: 18px;
+    margin-top: 75px;
+    font-family: "League Spartan",sans-serif;
+    font-size: 20px;
+    font-style: medium;
+    font-weight: 500;
+    color:#FFFFFF;
+}
+.divideline {
+    width: 323px;
+    height: 1px;
+    margin-top: 3px;
+    margin-left: 10px;
+    border: 1px solid #FFD8C7
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+.pricetag {
+    width: 81px;
+    height: 14px;
+    margin-top: 24px;
+    margin-left: 20px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: bold;
+    line-height: 26px;
+    color: #00B157;
+}
+.minusbtn {
+    width: 90.21px;
+    height: 30.07px;
+    margin-left: 227.4px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.addbtn {
+    width: 90.21px;
+    height: 30.07px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.menuimgg {
+    width: 319px;
+    height: 236px;
+}
+.menuimg {
+    width: 355px;
+    height: 236px;
+    border-radius: 16px;
+}
 .frame {
     background-color: #FFFFFF;
     border-radius: 30px;
