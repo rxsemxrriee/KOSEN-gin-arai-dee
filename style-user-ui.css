@@ -97,7 +97,7 @@ header input {
   color: green;
 }
 
-.navbar {
+nav {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -106,7 +106,6 @@ header input {
   display: flex;
   justify-content: space-around;
   padding: 10px ;
-  border-radius: 30px;
   margin-bottom: 10px;
   width: 400px;
   margin-left: 5px;
