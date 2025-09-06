@@ -107,12 +107,10 @@ nav {
   justify-content: space-around;
   padding: 10px ;
   margin-bottom: 10px;
-  width: 400px;
-  margin-left: 5px;
 }
 
 .navbar svg {
-  color: white;
+  color:#00B157 ;
   text-decoration: none;
 }
 
